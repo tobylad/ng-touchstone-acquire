@@ -1,0 +1,34 @@
+.tile-content {
+    .tile-title {
+        color: #5386E4;
+        text-align: center;
+        
+        h4 {
+            font-weight: bold;
+        }
+    }
+    span.property {
+        color: #5F5E60;
+        font-weight: bold;
+    }
+    .status {
+        border-radius: 5px;
+        height: 5px;
+        margin-top: 10px;
+      }
+      .researching {
+        background-color: #CCC;
+      }
+      
+      .pending {
+        background-color: #7fddd5;
+      }
+      
+      .approved {
+        background-color: #48E290;
+      }
+      
+      .declined {
+        background-color: #FF7F7F;
+      }
+}

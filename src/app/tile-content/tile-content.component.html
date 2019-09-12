@@ -1,0 +1,32 @@
+<div class="tile-content row">
+	<div class="col-12">
+		<li class="tile-title">
+			<h4>{{ target.name }}</h4>
+		</li>
+	</div>
+
+	<div class="col-12">
+		<li>
+			<span class="property">Revenue: </span>{{ formatCurrency(target.revenue) }}
+		</li>
+	</div>
+
+	<div class="col-12">
+		<li>
+			<span class="property">Margin: </span>{{ target.margin }}%
+		</li>
+	</div>
+
+	<div class="col-12">
+		<li>
+			<span class="property">Location: </span>{{ target.location }}
+		</li>
+	</div>
+	
+	<div class="col-12">
+		<li 
+			[class]="getStatus(target.status)"
+		>
+		</li>
+	</div>
+</div>

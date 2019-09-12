@@ -1,0 +1,25 @@
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+
+    footer {
+        background-color: #255F85;
+        color: #e5e5e5;
+        padding-bottom: 20px;
+        height: 75px;
+
+        .footer-header, .credit {
+            text-align: center;
+            margin-top: 4px;
+        }
+
+        a {
+            color: inherit;
+            font-style: none;
+        }
+    }
+}
+    

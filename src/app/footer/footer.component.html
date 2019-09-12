@@ -1,0 +1,39 @@
+<div class="container-fluid footer-container">
+<footer>
+    <div class="row">
+      <div class="col-12 footer-header">
+        <h6><strong>Thanks to:</strong></h6>
+      </div>
+    </div>
+
+    <div
+      *ngIf="footerItems.length"
+      class="row"
+    >
+
+      <div 
+        *ngFor="let item of footerItems"
+        class="col-6 col-lg-3 credit"
+      >
+        <a 
+          [href]="item.href"
+          target="_blank"
+        >
+        {{item.text}}
+        </a>
+
+      </div>
+
+    </div>
+
+  </footer>
+</div>
+
+
+    <!-- <div className="col-6 col-lg-3 credit">
+      <a href="https://www.insiten.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Insiten
+      </a>
+    </div> -->
